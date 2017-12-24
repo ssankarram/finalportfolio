@@ -1,125 +1,103 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-grey.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+  <title>ruthi sankarram</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/mystyle.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
 
-<style>
-h2 {
-  color: #C8CFD8;
-  font-family: 'Dancing Script', cursive;
-  font-size: 100px;
-  font-weight:bolder;
-  text-align: center;
-}
-
-  p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-  }
-
-</style>
-
-
-<!-- Side Navigation -->
-<nav class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left w3-center" style="display:none" id="mySidebar">
-  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
-  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">home</a></li>
+        <li><a href="#aboutme">about me</a></li>
+        <li><a href="#projects">my projects</a></li>
+        <li><a href="#contact">contact me</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- Header -->
-<header class="w3-container w3-theme w3-padding" id="myHeader">
-  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
-  <div class="w3-center">
-  <h1 class="w3-xxxlarge w3-animate-bottom" style="font-family:'Dancing Script';">Ruthi Sankarram</h1>
-    <div class="w3-padding-32">
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('http://www.linkedin.com/in/shruthi-sankarram/')" style="font-weight:900;">LINKEDIN</button>
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('https://github.com/ssankarram')" style="font-weight:900;">GITHUB</button>
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('http://www.linkedin.com/')" style="font-weight:900;">RESUME</button>
-  </div>
-</header>
-
-<div class="w3-row-padding w3-center w3-margin-top">
-<div class="w3-third">
-  <div class="w3-card-2 w3-container" style="min-height:460px">
-  <!--<h3>About me</h3><br>-->
-  <br><br><br><br>
-  <img src="diploma.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
-  <p>Sophomore at University of California, Davis.</p>
-  <p>Pursuing a Bachelor of Science in Computer Science.</p>
-  <p>Interested in Natural Language Processing and Computational Linguistics.</p>
-  <!--<p>PC Tablet and Mobile</p>-->
-  </div>
+<!--change class names-->
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="large-title">ruthi sankarram</h1>
+      <hr> <!--line break-->
+      <p class="content">sophomore studying computer science at university of california, davis</p>
+    </div>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-container" style="min-height:460px">
-  <br><br><br>
-  <img src="skills.png" alt="HTML5 Icon" style="width:128px;height:128px;">
-  <p>Java</p>
-  <p>C++</p>
-  <p>Python</p>
-  <p>C</p>
-  <p>HTML&CSS </p>
-  <p>Javascript</p>
-  </div>
+<div class="aboutme" id="aboutme" class="section">
+  <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+                <h2>hi, i'm ruthi.</h2>
+                <p>i'm currently a sophomore studying computer science and linguistics at university of california, davis</p>
+          </div>
+          <div class="col-sm-4">
+                <div class="bs-example">
+                    <h2>current involvements</h2>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li>uc davis
+                            <ul>
+                                <li>unitrans web developer/it assitant</li>
+                                <li>phi sigma pi national honor fraternity</li>
+                            </ul>
+                        </li>
+                        <li>girls who code</li>
+                            <ul>
+                                <li>teaching assistant at godaddy</li>
+                                <li>student at ebay inc</li>
+                            </ul>
+                    </ul>
+                    <hr> 
+                </div>
+          </div>
+      </div>
+    </div>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-container" style="min-height:460px">
-  <br><br><br><br>
-  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Girls Who Code</p>
-  <p>Phi Sigma Pi</p>
-  <p>Women in Computing</p>
-  </div>
-</div>
-</div>
-
-
-<div id="London" class="w3-container city w3-animate-opacity">
-  <div class="w3-center">
-  <h2>Who Am I?</h2>
-  <p>My name is Ruthi Sankarram. I am a second year undergraduate student pursuing a Bachelor of Science in Computer Science at University of California, Davis.</p>
-  <p>Currently, I am a Teaching Assistant for Girls Who Code at GoDaddy--Sunnyvale.</p>
-  <p>I have a passion for using technology to pave the way for social change.</p>
-</div>
-</div>
-
-<div id="Paris" class="w3-container city w3-animate-opacity">
-  <div class="w3-center">
-  <h2>Social Media</h2>
-  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('http://www.facebook.com/RuthiRam/')" style="font-weight:900;">FACEBOOK</button>
-  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('http://www.facebook.com/RuthiRam/')" style="font-weight:900;">YOUTUBE</button>
-  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onClick="parent.open('http://www.facebook.com/RuthiRam/')" style="font-weight:900;">TWITTER</button>
-  <p>Contact me at ssankarram@ucdavis.edu.</p>
-</div>
-</div>
-
-<hr>
-<div class="w3-center">
-  <h2>More to Come!</h2>
-
-<!-- Footer -->
-<footer class="w3-container w3-theme-dark w3-padding-16">
-  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme-light w3-padding">Go To Top</span> 
-    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
-</footer>
-
-<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
-<script>
-
-</script>
+<div class="projects" id="projects" class="section">
+    <h2>my projects</h2>
+        <div class="container">
+              <div class="row">
+                    <div class="col-sm-6">
+                            <div class="bs-example">
+                                <h2>urban boba</h2>
+                                <hr>
+                                <ul class="list-unstyled">
+                                        <ul>
+                                            <li>mobile web application</li>
+                                            <li>locates nearest milk tea shops</li>
+                                            <li>powered by mapbox, tabletop apis</li>
+                                            <li>javascript/html/css</li>
+                                        </ul>
+                                <hr> 
+                            </div>
+                      </div>
+                <div class="col-sm-6">
+                        <div class="bs-example">
+                                <h2>shifts</h2>
+                                <hr>
+                                <ul class="list-unstyled">
+                                        <ul>
+                                            <li>django web application</li>
+                                            <li>system to allow employers and employees interact with one and other to sign up for shifts</li>
+                                            <li> django framework/html/css</li>
+                                        </ul>
+                                <hr> 
+                            </div>
+                </div>
+            </div>
+          </div>
+      </div><div class="contact" id="contact"section"></div>
 
 </body>
 </html>
