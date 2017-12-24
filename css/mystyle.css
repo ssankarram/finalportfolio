@@ -1,0 +1,61 @@
+.jumbotron {
+    background: #B9979C;
+    color: #232d24;
+    text-align: center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-bottom: 0;
+  }
+
+.nav navbar-nav{
+    display: inline-block;
+}
+
+.large-title {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.aboutme {
+    background: #CCCCCC;
+    color: #232d24;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin-bottom: 0;
+    height:100%;
+  }
+
+  .bs-example{
+      margin:20px;
+  }
+
+h2, p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bullettitle{
+    text-align: center;
+}
+
+.list-unstyled{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.projects{
+    background: rgb(197, 185, 194);
+    color: #232d24;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin-bottom: 0;
+    height:100%;
+}
